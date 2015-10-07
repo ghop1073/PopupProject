@@ -1,3 +1,4 @@
+
 package input.controller;
 
 import input.view.PopupDisplay;
@@ -61,7 +62,7 @@ public class PopupController
 	 
 	 myThing = new Thing(name,age, weight);
 	 
-	 
+	 myPopups.displayResponse(myThing.toString());
  }
  
  private boolean isInterger(String input)
